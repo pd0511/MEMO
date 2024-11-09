@@ -3,10 +3,10 @@
 多分こう
 
 ```typescript
-const OPRTION:(boolean | AddEventListenerOptions | EventListenerOptions) = {passive: true};
-addEventListener(EVENT_NAME, FUNCTION, OPRTION);
+const OPTIONS:(boolean | AddEventListenerOptions | EventListenerOptions) = {passive: true};
+addEventListener(EVENT_NAME, FUNCTION, OPTIONS);
 
-removeEventListener(EVENT_NAME, FUNCTION, OPRTION);
+removeEventListener(EVENT_NAME, FUNCTION, OPTIONS);
 ```
 
 ## Link
