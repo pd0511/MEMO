@@ -1,4 +1,5 @@
 # setTimeout
+`window.setTimeout` にしないと Node.js のものを参照してしまう
 
 ```typescript
 let timer:(number | null) = null;
