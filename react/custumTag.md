@@ -5,7 +5,6 @@ refが取れなかった
 
 多分、tagで入ってきた文字列を `tag as React.ElementType` にして取る
 
-
 ```typescript
 import { useEffect, useRef, ComponentPropsWithRef, ElementType } from "react"
 
@@ -23,6 +22,7 @@ export default function CustomTagComponent<T extends ElementType = 'div'>({ tag,
 }
 ```
 
+納得できていない気がする
 
 ## Link
 - https://zenn.dev/sho_ts/articles/ff3082b1e3db5f
