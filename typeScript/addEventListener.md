@@ -4,6 +4,7 @@
 
 ```typescript
 const OPTIONS:(boolean | AddEventListenerOptions | EventListenerOptions) = {passive: true};
+
 addEventListener(EVENT_NAME, FUNCTION, OPTIONS);
 
 removeEventListener(EVENT_NAME, FUNCTION, OPTIONS);
