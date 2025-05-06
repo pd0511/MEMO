@@ -1,5 +1,18 @@
 # addEventListener() / removeEventListener()
 
+## 今時
+```typescript
+const ABORT = new AbortController();
+addEventListener(EVENT_NAME, FUNCTION, {
+	signal: ABORT.signal,
+});
+
+ABORT.abort();
+```
+`AbortController.abort()` を呼ぶと`AddEventListenerOptions.signal` で登録された　`AbortController.signal`と一致するイベントが削除される
+
+
+## 古いらしい
 多分こう
 
 ```typescript
